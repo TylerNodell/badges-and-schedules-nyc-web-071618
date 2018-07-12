@@ -1,10 +1,10 @@
 # Write your code here.
 def batch_badge_creator(array)
-  array.map { |badges| puts "Hello, my name is #{badges}." }
+  array.map { |badges| "Hello, my name is #{badges}." }
 end
 
 def assign_rooms(speakers)
-  speakers.each_with_index { |speaker, index| puts "Hello, #{speaker}! You'll be assigned to room #{index+1}!" }
+  speakers.each_with_index { |speaker, index| "Hello, #{speaker}! You'll be assigned to room #{index+1}!" }
 end
 
 def printer(array)
@@ -13,5 +13,5 @@ def printer(array)
 end
 
 def badge_maker(name)
-  return "Hello, my name is #{name}." 
+  return "Hello, my name is #{name}."
 end
