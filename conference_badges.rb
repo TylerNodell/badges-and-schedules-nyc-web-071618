@@ -11,3 +11,7 @@ def printer(array)
   batch_badge_creator(array).each { |badge| puts badge }
   assign_rooms(array).each { |room| puts room }
 end
+
+def badge_maker(name)
+  name.each { |name| puts "Hello, my name is #{name}." }
+end
