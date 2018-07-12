@@ -13,5 +13,5 @@ def printer(array)
 end
 
 def badge_maker(name)
-  name.each { |name| puts "Hello, my name is #{name}." }
+  puts "Hello, my name is #{name}." 
 end
